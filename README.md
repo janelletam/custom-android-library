@@ -1,12 +1,37 @@
 # Custom Android Library: User Manual
 
 This is a library that contains handy and practical components to be used in future Android projects. The following features of this library are as listed below.
-- [Resources](#resources)
+- [Instructions](#instructions)
 - [Custom Feedback](#custom_feedback)
 - [Custom UI Components](#custom_ui_components)
   - [Custom Edit Text](#custom_edit_text)
   - [Auto-adjust Text Size](#auto_adjust_text_size)
- 
+- [Resources](#resources)
+
+---
+## <a name="instructions"></a> Instructions
+To implement this library, add this code snippet to your root build.gradle (project) at the end of your repositories:
+```
+maven { url 'https://jitpack.io' }
+```
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+And add this dependency:
+```
+implementation 'com.github.janelletam:custom-android-library:[tag]'
+```
+```
+	dependencies {
+	        implementation 'com.github.janelletam:custom-android-library:[tag]'
+	}
+```
+
 ---
 ## <a name="custom_feedback"></a> Custom Feedback
 The `CustomFeedback` class includes static methods that display visual feedback to the user, which can be incorporated into your Android project for use. These static methods are:

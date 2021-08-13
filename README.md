@@ -24,11 +24,11 @@ maven { url 'https://jitpack.io' }
 ```
 And add this dependency:
 ```
-implementation 'com.github.janelletam:custom-android-library:[tag]'
+implementation 'com.github.janelletam:custom-android-library:2.0'
 ```
 ```
 	dependencies {
-	        implementation 'com.github.janelletam:custom-android-library:[tag]'
+	        implementation 'com.github.janelletam:custom-android-library:2.0'
 	}
 ```
 

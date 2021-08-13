@@ -19,8 +19,8 @@ public class CustomFeedback {
     private static Toast toast;
 
     // Show green snackbar with icon and text
-    public static void showCorrectSnackbar(Activity activity) {
-        snackbar = Snackbar.make(activity.findViewById(android.R.id.content), R.string.snackbar_correct_message, SNACKBAR_DURATION);
+    public static void showGreenSnackbar(String message, Activity activity) {
+        snackbar = Snackbar.make(activity.findViewById(android.R.id.content), message, SNACKBAR_DURATION);
         View snackbarView = snackbar.getView();
         snackbarView.setBackgroundColor(Color.parseColor(GREEN));
 
@@ -37,8 +37,8 @@ public class CustomFeedback {
     }
 
     // Show red snackbar with icon and text
-    public static void showIncorrectSnackbar(Activity activity) {
-        snackbar = Snackbar.make(activity.findViewById(android.R.id.content), R.string.snackbar_incorrect_message, SNACKBAR_DURATION);
+    public static void showRedSnackbar(String message, Activity activity) {
+        snackbar = Snackbar.make(activity.findViewById(android.R.id.content), message, SNACKBAR_DURATION);
         View snackbarView = snackbar.getView();
         snackbarView.setBackgroundColor(Color.parseColor(RED));
 

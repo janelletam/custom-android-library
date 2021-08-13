@@ -1,6 +1,6 @@
 # Custom Android Library: User Manual
 
-This is a library that contains handy and practical components to be used in future Android projects. The following features of this library are as listed below.
+This is a library that contains reusable components to be implemented in future Android projects. The following features of this library are as listed below.
 - [Instructions](#instructions)
 - [Custom Feedback](#custom_feedback)
 - [Custom UI Components](#custom_ui_components)

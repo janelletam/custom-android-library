@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Display feedback strings -->
+    <string name="snackbar_correct_message">CORRECT</string>
+    <string name="snackbar_incorrect_message">INCORRECT</string>
+
+    <!-- Custom UI components strings -->
+    <!-- Edit texts strings -->
+    <string name="edit_text_hint"></string>
+
+</resources>

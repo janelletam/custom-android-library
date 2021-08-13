@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom UI components colours -->
+    <!-- Edit text colours -->
+    <color name="light_gray">#E8E9EA</color>
+
+    <!-- Auto-adjust text colours -->
+    <color name="black">#000000</color>
+</resources>

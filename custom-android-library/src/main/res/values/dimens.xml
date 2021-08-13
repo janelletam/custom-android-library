@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom UI components dimensions -->
+    <!-- Edit texts dimensions -->
+    <dimen name="edit_text_width">250sp</dimen>
+    <dimen name="edit_text_height">45dp</dimen>
+    <dimen name="edit_text_padding_left">20dp</dimen>
+    <dimen name="edit_text_size">18sp</dimen>
+
+    <!-- Auto-adjust text dimensions -->
+    <dimen name="auto_text_width">250sp</dimen>
+    <dimen name="auto_text_height">125sp</dimen>
+
+    <dimen name="auto_text_max_size">23sp</dimen>
+    <dimen name="auto_text_min_size">15sp</dimen>
+    <dimen name="auto_text_reg_size">18sp</dimen>
+
+</resources>

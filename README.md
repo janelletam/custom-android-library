@@ -1,5 +1,4 @@
-[![Release](https://jitpack.io/v/User/Repo.svg)]
-(https://jitpack.io/#User/Repo)
+[![Release](https://jitpack.io/v/User/Repo.svg)](https://jitpack.io/#janelletam/custom-android-library)
 # Custom Android Library: User Manual
 
 This is a library that contains reusable components to be implemented in future Android projects. The following features of this library are as listed below.

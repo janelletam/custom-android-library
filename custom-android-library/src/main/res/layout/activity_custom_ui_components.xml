@@ -47,4 +47,5 @@
 
         android:text="Placeholder question"
         android:textColor="@color/black" />
+
 </RelativeLayout>

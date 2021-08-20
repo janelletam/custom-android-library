@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/janelletam/custom-android-library.svg)](https://jitpack.io/#janelletam/custom-android-library)
 # Custom Android Library: User Manual
 
 This is a library that contains reusable components to be implemented in future Android projects. The following features of this library are as listed below.
@@ -24,20 +25,20 @@ maven { url 'https://jitpack.io' }
 ```
 And add this dependency:
 ```
-implementation 'com.github.janelletam:custom-android-library:2.0'
+implementation 'com.github.janelletam:custom-android-library:2.1'
 ```
 ```
 	dependencies {
-	        implementation 'com.github.janelletam:custom-android-library:2.0'
+	        implementation 'com.github.janelletam:custom-android-library:2.1'
 	}
 ```
 
 ---
 ## <a name="custom_feedback"></a> Custom Feedback
 The `CustomFeedback` class includes static methods that display visual feedback to the user, which can be incorporated into your Android project for use. These static methods are:
-  * `showCorrectSnackbar()` → This displays a **green** snackbar at the bottom of the screen with a checkmark icon, which can be adjusted by adding a different drawable resource, as well as a message, which can be changed by going to the `strings` file and changing the text
-  * `showIncorrectSnackbar()` → This displays a **red** snackbar at the bottom of the screen with a cross icon, which can be adjusted by adding a different drawable resource, as well as a message, which can be changed by going to the `strings` file and changing the text
-  * `displayToastTop()` → This displays a custom toast with a message that can be changed by passing in a different string argument. The toast appears near the top of the screen, though the exact coordinates can be changed by going to the method declaration
+  * `showCorrectSnackbar()` → This displays a **green** snackbar at the bottom of the screen with a checkmark icon, which can be adjusted by downloading the library and implementing it as a module, then adding your own drawable resource. In addition, you can customize the text that will be displayed by passing in your message as the first argument.
+  * `showIncorrectSnackbar()` → This displays a **red** snackbar at the bottom of the screen with a cross icon, which can be adjusted by downloading the library and implementing it as a module, then adding your own drawable resource. In addition, you can customize the text that will be displayed by passing in your message as an argument. 
+  * `displayToastTop()` → This displays a custom toast with a message that can be changed by passing in a different string argument. The toast appears near the top of the screen, though the exact coordinates can be changed by downloading the library and implementing it as a module, then going to the method declaration and passing in your own coordinates.
   * `displayToastBottom()` → This displays a custom toast with a message that can be changed by passing in a different string argument. The toast appears near the bottom of the screen and is the default Android toast
 
 ---
@@ -99,7 +100,7 @@ The `CustomFeedback` class includes static methods that display visual feedback 
 &nbsp;
 ---
 ### <a name="auto_adjust_text_size"></a> Auto-adjust Text Size
-`Auto-adjust Text Size` → This library offers a template for a TextView that automatically adjust its font size depending on the amount of text and the dimensions of the TextView. The individual parameters as listed below can be changed by going to the `res` directory and changing the `dimens` file accordingly
+`Auto-adjust Text Size` → This library offers a template for a TextView that automatically adjusts its font size depending on the amount of text and the dimensions of the TextView. The individual parameters as listed below can be changed by going to the `res` directory and changing the `dimens` file accordingly
  
 #### Dimensions
   ```
